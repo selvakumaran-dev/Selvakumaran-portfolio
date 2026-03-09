@@ -23,7 +23,7 @@ const Hero = ({ scrollToSkills }) => {
             ⚡ Explore My Work
           </a>
           <a
-            href="/resume.pdf"
+            href="/Selvakumaran S  - Full Stack Web Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 md:px-6 md:py-3 rounded-full font-bold bg-amber-200 text-black hover:bg-white transition text-sm md:text-base"

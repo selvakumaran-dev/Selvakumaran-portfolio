@@ -6,6 +6,7 @@ const Navbar = () => {
     ["Education", "#education"],
     ["Journey", "#journey"],
     ["Internship", "#internship"],
+    ["Certifications", "#certifications"],
     ["Skills", "#skills"],
     ["Projects", "#projects"],
     ["Contact", "#contact"],

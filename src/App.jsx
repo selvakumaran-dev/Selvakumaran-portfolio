@@ -9,14 +9,8 @@ import Education from "./components/Education";
 import Journey from "./components/Journey";
 import Internship from "./components/Internship";
 import Skills from "./components/Skills";
+import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
-import ProjectDetailsPortfolio from "./components/ProjectDetailsSecureEra";
-import ProjectDetailsChatbot from "./components/ProjectDetailsTrackX";
-import ProjectDetailsHealth from "./components/ProjectDetailsOpenAux";
-import ProjectDetailsResume from "./components/ProjectDetailsNexora";
-import ProjectDetailsInkify from "./components/ProjectDetailsUrbanSlot";
-import ProjectDetailsEcommerce from "./components/ProjectDetailsCodeClash";
-import ProjectDetailsVeeConnect from "./components/ProjectDetailsVeeConnect";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Background from "./components/Background";
@@ -307,16 +301,9 @@ const App = () => {
           <Education />
           <Journey />
           <Internship />
+          <Certifications />
           <Skills />
           <Projects />
-          {/* Alternating Layout Verification: L, R, L, R, L, R */}
-          <ProjectDetailsPortfolio handleReload={handleReload} /> {/* L */}
-          <ProjectDetailsEcommerce handleReload={handleReload} /> {/* R */}
-          <ProjectDetailsInkify handleReload={handleReload} />    {/* L */}
-          <ProjectDetailsResume handleReload={handleReload} />    {/* R */}
-          <ProjectDetailsChatbot handleReload={handleReload} />   {/* L */}
-          <ProjectDetailsHealth handleReload={handleReload} />    {/* R */}
-          <ProjectDetailsVeeConnect handleReload={handleReload} /> {/* L */}
           <Contact />
         </div>
         <Footer />
