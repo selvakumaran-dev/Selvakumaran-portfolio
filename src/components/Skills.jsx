@@ -60,7 +60,7 @@ const Skills = () => {
         @media (max-width: 640px) {
           .animate-skill-wave {
             animation: none; /* Disable wave on mobile to reduce blinking */
-            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) !important;
+            transform: none !important;
           }
         }
       `}</style>
