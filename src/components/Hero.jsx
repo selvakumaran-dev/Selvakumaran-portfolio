@@ -60,7 +60,7 @@ const Hero = ({ scrollToSkills }) => {
       {/* Right: Image + Skills */}
       <div className="md:w-1/2 mt-10 md:mt-0 flex flex-col items-center">
         <img
-          src="selvakumaran_enhanced.png"
+          src="selvakumaran_new.png"
           alt="Selvakumaran"
           className="max-h-[320px] md:max-h-[480px] object-contain mix-blend-lighten"
         />
