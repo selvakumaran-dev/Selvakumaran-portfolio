@@ -18,6 +18,13 @@ const Certifications = () => {
             issuer: "Vdart Academy",
             year: "2025",
             image: "Vdart.jpg",
+        },
+        {
+            id: 3,
+            title: "NPTEL ONLINE CERTIFICATION",
+            issuer: "Cloud Computing IIT Kharagpur",
+            year: "2026",
+            image: "NPTEL2.png",
         }
     ];
 
